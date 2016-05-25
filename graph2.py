@@ -1,13 +1,3 @@
-'''
-
-Erweitere die Implementierung der Klasse für gerichtete Graphen um eine
-Mehode, die die Knoten des Graphen topologisch sortiert und in einer
-Liste zurückgibt. Der Graph soll durch den Aufruf der Methode nicht
-verändert werden! Achte darauf, dass die Methode auch für zyklische 
-Graphen nicht in eine Endlosschleife gerät. [3 Punkte]
-
-'''
-
 from collections import defaultdict, deque
 
 from random import randint
